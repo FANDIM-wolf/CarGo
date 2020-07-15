@@ -10,31 +10,37 @@
 <center>                         
 <div class="main-title">
 <div class="click-menu">
-<button onclick = " " class="click_button">CarGo</button>
+<button onclick = "show_hide()" id="click_button">CarGo</button>
 
 </div>	
 
 <div class="search">
-	<input  class ="go-search"type="" name="search" size="70">
+	<input   onclick="doIt(myinput.value)"id ="myinput"type="" name="search" size="70">
 </div>
-	
+
+<button onclick="make_dark_theme()" id="dark_button">Dark</button>
+
 </div>
 </center>
+<div id="go">   
+<div id="menu-box">
+
+<button id="menus">Menu</button>
+<button id="menus">Hot's</button>
+<button id="menus">Statistics</button>
+<button id="menus">Popular in your region</button>
+
+</div>
+
+</div>
 
 
 <div class="container">
  
-<div class="container-go">
-
-<div class="menu-box">
-
-<h4>Home</h4>
-<h4>Menu</h4>
-<h4>Statistics</h4>
-<h4>Hot's&#9733;</h4>
 
 
-</div>
+
+
 
 <div class="carts">
 
@@ -64,40 +70,67 @@
   
 	
 
-</div> 
+
+
 
 
 </div>
 
 
 
-
 </div>	
-<div class="carts1">
+
+<br>
+<br>
+
+<div class="container">
+ 
+
+
+
+
+
+<div class="carts">
 
 <div class="cart">
-	<h2>Ford Mustang GT</h2> 
+	<h2>Ford Mustnag GT</h2> 
 	
-	<h3>4000$ per a mounth</h3> 
+	<h3>6000$ per a mounth</h3> 
 	
 	<img class="" src="cars/fordmustang.jpg" width="500" height="300">
 </div>	
 
 <div class="cart">
-	<h2>Porsche Panamera</h2> 
+	<h2>Reno Sandero</h2> 
 	
-	<h3>7000$ per a mounth</h3> 
+	<h3>2600$ per a mounth</h3> 
 	
-	<img class="" src="cars/panamera.jpg" width="500" height="300">
+	<img class="" src="cars/sandero.jpg" width="500" height="300">
 </div>
 
 <div class="cart">
-	<h2>Land Rover discovery</h2> 
+	<h2>BMW 530i</h2> 
 	
-	<h3>5100$ per a mounth</h3> 
+	<h3>3000$ per a mounth</h3> 
 	
-	<a href=""><img class="" src="cars/landrover.jpg" width="500" height="300"></a>
+	<img class="" src="cars/bmw530i.jpg" width="500" height="300">
+</div>	
+  
+	
+
+
+
+
+
 </div>
+
+
+
+</div>	
+
+<script type="text/javascript" src="search.js"></script>
+<script type="text/javascript" src="button_menu.js"></script>
+<script type="text/javascript" src="dark_theme.js"></script>
 
 </body>
 </html>
