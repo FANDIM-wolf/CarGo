@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CarGo</title>
+	<link rel="stylesheet" type="text/css" href="style-main.css">
+</head>
+<body>
+
+<center>                         
+<div id="main-title">
+<div id="click-menu">
+<button onclick = "show_hide()" id="click_button">CarGo</button>
+
+</div>	
+
+<div id="search">
+	<input  id ="myinput"type="" placeholder = "enter a car"name="search" size="72">
+	<button   onclick="doIt(myinput.value)" id="go_button"><img src="search.png" width="40" height="30"></button>
+</div>
+
+
+<button onclick="make_dark_theme()" id="dark_button">Dark</button>
+
+</div>
+</center>
+<div id="go">   
+<div id="menu-box">
+
+<button id="menus">Menu</button>
+<button id="menus">Hot's</button>
+<button id="menus">Statistics</button>
+<button id="menus">Popular in your region</button>
+
+</div>
+
+</div>
+
+
+<div id= "container_page"> 
+
+<div id="container_car">
+
+<div id="text_car">	
+<h1>Land Rover : Discovery </h1>
+
+<p id = "test"> Land Rover Discovery, also frequently just called "Disco" in slang or popular language, is a series of medium to large premium SUVs, produced under the Land Rover marque, from the British manufacturer Land Rover, and later Jaguar Land Rover. The series is currently in its fifth iteration (or generation, according to the manufacturer), the first of which was introduced in 1989, making the Discovery the first new model series since the launch of the 1970 Range Rover – on which it was based – and only the third new product line since the conception of the Land Rover (vehicle and brand) by Rover in 1948. The model is sometimes called influential, as one of the first to market a true off-road capable family car. </p>
+ 
+  
+
+
+
+</div>
+
+<div id= "car_image">
+
+<img src="cars/landrover.jpg" width="650" height="400">
+
+
+
+
+</div>
+
+
+</div>
+
+<div id="slider_part">
+
+<div class="slider">
+  	<div class="item">
+        <img src="cars/landrover.jpg" alt="Первый слайд">
+        <div class="slideText"></div>
+    </div>
+
+    <div class="item">
+        <img src="cars/landrover1.jpg" alt="Второй слайд">
+        <div class="slideText"></div>
+    </div>
+     
+    <div class="item">
+        <img src="cars/landrover2.jpg" alt="Второй слайд">
+        <div class="slideText"></div>
+    </div>
+     
+  	<a class="prev" onclick="minusSlide()">&#10094;</a>
+  	<a class="next" onclick="plusSlide()">&#10095;</a>
+</div>
+<br>
+
+
+<div class="slider-dots">
+  <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+    <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+    <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+</div>
+
+</div>
+ 
+</div>
+<script type="text/javascript" src="search.js"></script>
+<script type="text/javascript" src="button_menu.js"></script>
+<script type="text/javascript" src="dark_theme.js"></script>
+<script type="text/javascript" src="slider.js"></script>
+</body>
+</html>
