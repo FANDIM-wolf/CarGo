@@ -1,0 +1,12 @@
+body{
+	background-color: snow;
+}
+#elements {
+ display: flex;
+ justify-content: center;
+
+}
+
+#reminder{
+	display: none;
+}
